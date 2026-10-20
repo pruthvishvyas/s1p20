@@ -1,0 +1,85 @@
+{
+  "method": "permutation_importance_pr_auc",
+  "features": [
+    {
+      "feature": "tenure_mod_term",
+      "importance": 0.1686
+    },
+    {
+      "feature": "months_to_renewal",
+      "importance": 0.1234
+    },
+    {
+      "feature": "Channel_Paid Search",
+      "importance": 0.0196
+    },
+    {
+      "feature": "renewal_within_3m",
+      "importance": 0.0132
+    },
+    {
+      "feature": "Tenure_Months",
+      "importance": 0.0129
+    },
+    {
+      "feature": "Channel_Organic",
+      "importance": 0.0123
+    },
+    {
+      "feature": "Active_Users",
+      "importance": 0.0086
+    },
+    {
+      "feature": "contrib_margin_3m",
+      "importance": 0.0084
+    },
+    {
+      "feature": "Channel_Partner",
+      "importance": 0.0059
+    },
+    {
+      "feature": "ar_days",
+      "importance": 0.0044
+    },
+    {
+      "feature": "Logins",
+      "importance": 0.004
+    },
+    {
+      "feature": "Industry_Technology",
+      "importance": 0.0037
+    },
+    {
+      "feature": "Discount_Pct",
+      "importance": 0.0036
+    },
+    {
+      "feature": "Support_Tickets",
+      "importance": 0.0032
+    },
+    {
+      "feature": "logins_change_3m",
+      "importance": 0.0027
+    },
+    {
+      "feature": "health_change_1m",
+      "importance": 0.0027
+    },
+    {
+      "feature": "logins_per_seat",
+      "importance": 0.0023
+    },
+    {
+      "feature": "contribution_margin_pct",
+      "importance": 0.0023
+    },
+    {
+      "feature": "price_realization",
+      "importance": 0.0022
+    },
+    {
+      "feature": "health_roll3",
+      "importance": 0.0022
+    }
+  ]
+}

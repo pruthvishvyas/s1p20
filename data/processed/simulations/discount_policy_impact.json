@@ -1,0 +1,41 @@
+{
+  "assumption": "Assumption-driven what-if. Churn sensitivity is editable in CONFIG[\"SIM\"]; results are expected values for next month.",
+  "eligible_rule": "discount above cap and risk not HIGH",
+  "scenarios": [
+    {
+      "discount_reduction_pts": 0.0,
+      "eligible_accounts": 7,
+      "extra_mrr_if_all_stay": 0.0,
+      "expected_net_mrr_change": 0.0,
+      "expected_net_arr_change": 0.0
+    },
+    {
+      "discount_reduction_pts": 2.5,
+      "eligible_accounts": 7,
+      "extra_mrr_if_all_stay": 99.425,
+      "expected_net_mrr_change": 96.6839,
+      "expected_net_arr_change": 1160.2068
+    },
+    {
+      "discount_reduction_pts": 5.0,
+      "eligible_accounts": 7,
+      "extra_mrr_if_all_stay": 198.85,
+      "expected_net_mrr_change": 193.2341,
+      "expected_net_arr_change": 2318.8091
+    },
+    {
+      "discount_reduction_pts": 7.5,
+      "eligible_accounts": 7,
+      "extra_mrr_if_all_stay": 298.275,
+      "expected_net_mrr_change": 289.6506,
+      "expected_net_arr_change": 3475.8068
+    },
+    {
+      "discount_reduction_pts": 10.0,
+      "eligible_accounts": 7,
+      "extra_mrr_if_all_stay": 397.7,
+      "expected_net_mrr_change": 385.9333,
+      "expected_net_arr_change": 4631.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-09-01",
+  "mrr": 1446170.15,
+  "arr": 17354041.8,
+  "active_accounts": 320,
+  "new_logos_last_month": 9,
+  "churned_logos_last_month": 10,
+  "logo_churn_rate_pct": 3.1153,
+  "nrr_monthly_pct": 102.5184,
+  "grr_monthly_pct": 99.4427,
+  "nrr_trailing12_pct": 115.4318,
+  "grr_trailing12_pct": 89.5031,
+  "mrr_mom_pct": 2.6818,
+  "gross_margin_pct": 78.0659,
+  "contribution_margin_pct": 75.3497,
+  "ar_closing": 1790018.25,
+  "ar_60plus": 85940.25,
+  "ar60_share_pct": 4.8011,
+  "avg_health_score": 70.6375,
+  "high_risk_accounts": 14,
+  "high_risk_mrr_share_pct": 2.466,
+  "expected_mrr_at_risk": 17235.1739,
+  "data_health": {
+    "rows": 6972,
+    "accounts": 497,
+    "months": 36,
+    "first_month": "2023-10-01",
+    "last_month": "2026-09-01",
+    "duplicate_account_months": 0,
+    "account_month_gaps": 0,
+    "mrr_identity_mismatch_rows": 0,
+    "quality_gates": {
+      "min_rows_ok": true,
+      "min_accounts_ok": true,
+      "min_months_ok": true,
+      "churn_model_ready": true,
+      "forecast_ready": true
+    }
+  }
+}

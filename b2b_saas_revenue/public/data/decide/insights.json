@@ -1,0 +1,122 @@
+[
+  {
+    "severity": "HIGH",
+    "category": "Renewal Risk",
+    "finding": "12 contracts renew within 3 months with elevated churn risk ($113,332 MRR).",
+    "evidence": "Annual-style contracts churn at renewal; 11 are HIGH risk right now.",
+    "action": "Start renewal conversations now; prepare a save offer for the RENEWAL_AT_RISK accounts.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 113331.55,
+    "rank": 1
+  },
+  {
+    "severity": "HIGH",
+    "category": "Profitability",
+    "finding": "38 accounts have negative 3-month contribution margin after CAC and cost-to-serve.",
+    "evidence": "They represent 3.0% of MRR; estimated monthly contribution leak $100,472.",
+    "action": "Reprice at renewal or cut support/hosting cost for these accounts; check CAC payback on new deals in this profile.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 100471.6996,
+    "rank": 2
+  },
+  {
+    "severity": "HIGH",
+    "category": "Cash and Collections",
+    "finding": "$85,940 of receivables are 60+ days old across 15 accounts.",
+    "evidence": "AR 60+ share of closing AR: 4.8% (goal under 10%).",
+    "action": "Finance runs a collections sprint on the COLLECTIONS_OVERDUE list; pause discounts for those accounts.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 85940.25,
+    "rank": 3
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Expansion",
+    "finding": "40 healthy, fully adopted, low-risk accounts are ready for an upsell.",
+    "evidence": "Current MRR $341,763; a 15% uplift assumption is worth about $51,264 MRR.",
+    "action": "Sales/CS offers extra seats or the next plan tier to this list this month.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 51264.4425,
+    "rank": 4
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Churn Risk",
+    "finding": "14 accounts (4% of the base) are HIGH churn risk and carry $35,662 MRR.",
+    "evidence": "Expected MRR lost next month from this group: $3,429; total active MRR $1,446,170.",
+    "action": "CS lead works the Churn Risk List top-down this week; every HIGH account gets a named owner and a call.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 35661.9,
+    "rank": 5
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Revenue Health",
+    "finding": "Net new MRR is running at $29,770 per month.",
+    "evidence": "Average net new MRR last 3 months $29,770 vs prior 3 months $47,119. Forecast MRR in 6 months (P50): $1,676,838.",
+    "action": "If net new MRR is falling, shift effort from acquisition to expansion and saves; track it weekly.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 29770.3333,
+    "rank": 6
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Pricing",
+    "finding": "10 healthy accounts get more than 30% off list price.",
+    "evidence": "Cutting 5 discount points at renewal adds about $11,230 MRR if they all stay (see discount_policy_impact simulation).",
+    "action": "Cap renewal discounts for healthy accounts; approve deeper discounts only with a documented reason.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 11230.45,
+    "rank": 7
+  },
+  {
+    "severity": "LOW",
+    "category": "Concentration Risk",
+    "finding": "The top 10% of accounts generate 67% of MRR.",
+    "evidence": "Expected MRR loss among these accounts next month: $11,184.",
+    "action": "Give every top-decile account an executive sponsor and a quarterly business review.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 11183.813,
+    "rank": 8
+  },
+  {
+    "severity": "LOW",
+    "category": "Retention",
+    "finding": "Top churn reason by lost MRR is \"Poor Fit / Low Adoption\" (37% of all churned MRR).",
+    "evidence": "Churned MRR to date: $215,513; top reason $79,960.",
+    "action": "Assign Product/CS an owner for this reason and review the accounts showing the same early signals.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 2221.1125,
+    "rank": 9
+  },
+  {
+    "severity": "LOW",
+    "category": "Retention",
+    "finding": "Channel \"Paid Search\" churns at 5.16% per month, 2.0x the company average.",
+    "evidence": "Company average 2.54%; this group holds $69,914 of current MRR.",
+    "action": "Review onboarding, pricing and fit for this group before spending more acquisition budget on it.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 1830.2101,
+    "rank": 10
+  },
+  {
+    "severity": "LOW",
+    "category": "Product Adoption",
+    "finding": "Accounts using under 40% of paid seats churn next month at 3.04% vs 2.67% for the rest.",
+    "evidence": "1 active accounts ($176 MRR) are below the threshold today.",
+    "action": "Run seat-activation / training sessions for these accounts; right-size seats at renewal rather than lose the logo.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 5.3272,
+    "rank": 11
+  },
+  {
+    "severity": "LOW",
+    "category": "Anomaly Watch",
+    "finding": "14 account-months were flagged as unusual in the last 3 months.",
+    "evidence": "Most common driver: tickets_roll3.",
+    "action": "CS ops reviews the Anomaly Explorer weekly and confirms whether each case is real churn signal or data error.",
+    "outcome": "DECIDE",
+    "impact_usd_monthly": 0.0,
+    "rank": 12
+  }
+]

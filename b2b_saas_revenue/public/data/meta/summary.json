@@ -1,0 +1,8 @@
+{
+  "project": "B2B SaaS Revenue and Retention",
+  "domain": "b2b_saas_subscription",
+  "client_id": "b2b_saas_revenue",
+  "last_run": "2026-10-18T16:23:01",
+  "data_as_of": "2026-09-01",
+  "source": "csv"
+}

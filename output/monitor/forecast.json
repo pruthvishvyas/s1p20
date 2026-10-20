@@ -1,0 +1,188 @@
+{
+  "horizon_months": 6,
+  "history": [
+    {
+      "month": "2024-10-01",
+      "mrr": 485306.5
+    },
+    {
+      "month": "2024-11-01",
+      "mrr": 514281.75
+    },
+    {
+      "month": "2024-12-01",
+      "mrr": 547929.95
+    },
+    {
+      "month": "2025-01-01",
+      "mrr": 552482.4
+    },
+    {
+      "month": "2025-02-01",
+      "mrr": 562859.4
+    },
+    {
+      "month": "2025-03-01",
+      "mrr": 628896.6
+    },
+    {
+      "month": "2025-04-01",
+      "mrr": 673423.4
+    },
+    {
+      "month": "2025-05-01",
+      "mrr": 749143.05
+    },
+    {
+      "month": "2025-06-01",
+      "mrr": 775562.95
+    },
+    {
+      "month": "2025-07-01",
+      "mrr": 814234.9
+    },
+    {
+      "month": "2025-08-01",
+      "mrr": 841383.5
+    },
+    {
+      "month": "2025-09-01",
+      "mrr": 856331.3
+    },
+    {
+      "month": "2025-10-01",
+      "mrr": 864391.7
+    },
+    {
+      "month": "2025-11-01",
+      "mrr": 998037.9
+    },
+    {
+      "month": "2025-12-01",
+      "mrr": 1077770.55
+    },
+    {
+      "month": "2026-01-01",
+      "mrr": 1113060.45
+    },
+    {
+      "month": "2026-02-01",
+      "mrr": 1176810.95
+    },
+    {
+      "month": "2026-03-01",
+      "mrr": 1215502.4
+    },
+    {
+      "month": "2026-04-01",
+      "mrr": 1271677.3
+    },
+    {
+      "month": "2026-05-01",
+      "mrr": 1269436.15
+    },
+    {
+      "month": "2026-06-01",
+      "mrr": 1356859.15
+    },
+    {
+      "month": "2026-07-01",
+      "mrr": 1380375.7
+    },
+    {
+      "month": "2026-08-01",
+      "mrr": 1408399.1
+    },
+    {
+      "month": "2026-09-01",
+      "mrr": 1446170.15
+    }
+  ],
+  "forecast": [
+    {
+      "month": "2026-10-01",
+      "horizon": 1,
+      "mrr_p10": 1432276.6076,
+      "mrr_p50": 1484614.775,
+      "mrr_p90": 1536952.9424,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    },
+    {
+      "month": "2026-11-01",
+      "horizon": 2,
+      "mrr_p10": 1449042.0539,
+      "mrr_p50": 1523059.4,
+      "mrr_p90": 1597076.7461,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    },
+    {
+      "month": "2026-12-01",
+      "horizon": 3,
+      "mrr_p10": 1470851.6599,
+      "mrr_p50": 1561504.025,
+      "mrr_p90": 1652156.3901,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    },
+    {
+      "month": "2027-01-01",
+      "horizon": 4,
+      "mrr_p10": 1495272.3152,
+      "mrr_p50": 1599948.65,
+      "mrr_p90": 1704624.9848,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    },
+    {
+      "month": "2027-02-01",
+      "horizon": 5,
+      "mrr_p10": 1521361.5749,
+      "mrr_p50": 1638393.275,
+      "mrr_p90": 1755424.9751,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    },
+    {
+      "month": "2027-03-01",
+      "horizon": 6,
+      "mrr_p10": 1548636.0958,
+      "mrr_p50": 1676837.9,
+      "mrr_p90": 1805039.7042,
+      "new_mrr": null,
+      "expansion_mrr": null,
+      "contraction_mrr": null,
+      "churned_mrr": null
+    }
+  ],
+  "method": "drift",
+  "backtest": {
+    "naive": {
+      "mape_3m": 0.1144,
+      "err_sd": 46339.6849,
+      "points": 9
+    },
+    "drift": {
+      "mape_3m": 0.0439,
+      "err_sd": 70733.743,
+      "points": 9
+    },
+    "driver": {
+      "mape_3m": 0.0461,
+      "err_sd": 72376.6979,
+      "points": 9
+    }
+  },
+  "low_confidence": false
+}

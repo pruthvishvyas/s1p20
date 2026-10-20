@@ -1,0 +1,22 @@
+{
+  "id": "mrr_by_segment",
+  "title": "MRR by account segment",
+  "type": "bar",
+  "x_label": "Segment",
+  "y_label": "MRR ($)",
+  "outcome": "UNDERSTAND",
+  "data": [
+    {
+      "label": "Enterprise",
+      "value": 1116404.7
+    },
+    {
+      "label": "Mid-Market",
+      "value": 304692.8
+    },
+    {
+      "label": "SMB",
+      "value": 25072.65
+    }
+  ]
+}

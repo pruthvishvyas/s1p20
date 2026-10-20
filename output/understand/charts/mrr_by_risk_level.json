@@ -1,0 +1,22 @@
+{
+  "id": "mrr_by_risk_level",
+  "title": "MRR by churn risk level",
+  "type": "bar",
+  "x_label": "Risk level",
+  "y_label": "MRR ($)",
+  "outcome": "DECIDE",
+  "data": [
+    {
+      "label": "HIGH",
+      "value": 35661.9
+    },
+    {
+      "label": "LOW",
+      "value": 1325267.8
+    },
+    {
+      "label": "MEDIUM",
+      "value": 85240.45
+    }
+  ]
+}

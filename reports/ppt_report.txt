@@ -1,0 +1,58 @@
+SLIDE 1 -- TITLE AND HOOK
+B2B SaaS Revenue and Retention
+MRR today: $1,446,170 (ARR $17,354,042) across 320 accounts
+
+SLIDE 2 -- BUSINESS PROBLEM
+Subscription revenue leaks through churn, discounts, slow cash collection and unprofitable accounts.
+Goal: know who will churn next month, why, and what to do about it this week.
+
+SLIDE 3 -- DATASET OVERVIEW
+Rows: 6972 | accounts: 497 | months: 36 (2023-10-01 to 2026-09-01)
+Churn events: 177 | duplicates: 0 | month gaps: 0
+
+SLIDE 4 -- REVENUE HEALTH
+Monthly logo churn (latest): 3.12%
+Net revenue retention (latest month): 102.5% | gross: 99.4%
+
+SLIDE 5 -- CORE FINDING
+12 contracts renew within 3 months with elevated churn risk ($113,332 MRR).
+Annual-style contracts churn at renewal; 11 are HIGH risk right now.
+
+SLIDE 6 -- FEATURE ENGINEERING
+32 business features: adoption, unit economics, cash, renewal calendar, momentum.
+All momentum features use only past data; target = churn in the next month.
+
+SLIDE 7 -- CHURN MODEL
+Model: RandomForest+calibrated | split: time_split_with_1_month_purge
+Held-out ROC-AUC 0.903 | PR-AUC 0.345 | top-10% recall 68.5% | lift 6.9x
+
+SLIDE 8 -- SEGMENTATION AND ANOMALIES
+Accounts grouped into behavioural segments; unusual account-months flagged with their main driver.
+See Anomaly Explorer
+
+SLIDE 9 -- MRR FORECAST
+P50 MRR in 6 months: $1,676,838 (P10 $1,548,636, P90 $1,805,040)
+
+SLIDE 10 -- BUSINESS LOGIC
+Rules turn scores into actions: renewal at risk, low adoption, negative margin, overdue cash, expansion-ready, over-discounted.
+Priority mix: {'P4_ROUTINE': 169, 'P3_MEDIUM': 76, 'P2_HIGH': 64, 'P1_URGENT': 11}
+
+SLIDE 11 -- KEY INSIGHTS
+[HIGH] Renewal Risk: 12 contracts renew within 3 months with elevated churn risk ($113,332 MRR).
+[HIGH] Profitability: 38 accounts have negative 3-month contribution margin after CAC and cost-to-serve.
+[HIGH] Cash and Collections: $85,940 of receivables are 60+ days old across 15 accounts.
+[MEDIUM] Expansion: 40 healthy, fully adopted, low-risk accounts are ready for an upsell.
+[MEDIUM] Churn Risk: 14 accounts (4% of the base) are HIGH churn risk and carry $35,662 MRR.
+
+SLIDE 12 -- RECOMMENDATIONS
+- Start renewal conversations now; prepare a save offer for the RENEWAL_AT_RISK accounts.
+- Reprice at renewal or cut support/hosting cost for these accounts; check CAC payback on new deals in this profile.
+- Finance runs a collections sprint on the COLLECTIONS_OVERDUE list; pause discounts for those accounts.
+- Sales/CS offers extra seats or the next plan tier to this list this month.
+
+SLIDE 13 -- EXECUTIVE HOOK
+14 HIGH-risk accounts hold $35,662 of MRR; expected loss next month $17,235
+
+SLIDE 14 -- TECHNICAL ARCHITECTURE
+Config -> ingest -> clean -> features -> EDA -> churn model -> segments/anomalies -> forecast -> rules/simulations -> insights -> Excel + JSON for frontend.
+Outputs organised as understand/ decide/ monitor/ for the dashboard.

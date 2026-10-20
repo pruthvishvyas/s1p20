@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-10-18T16:17:55",
+    "source": "csv",
+    "files_written": 25,
+    "rows": 6972,
+    "status": "ok"
+  },
+  {
+    "timestamp": "2026-10-18T16:23:01",
+    "source": "csv",
+    "files_written": 25,
+    "rows": 6972,
+    "status": "ok"
+  }
+]

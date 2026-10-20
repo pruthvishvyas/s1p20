@@ -1,0 +1,47 @@
+{
+  "mrr_target": {
+    "value": null,
+    "unit": "usd_monthly",
+    "client_sets": true,
+    "description": "Target ending MRR; set in the dashboard"
+  },
+  "alert_mrr_drop_pct": {
+    "value": 3,
+    "unit": "percent",
+    "description": "Alert if MRR falls month-over-month by more than this %"
+  },
+  "max_monthly_logo_churn_pct": {
+    "value": 2.0,
+    "unit": "percent",
+    "description": "B2B SaaS benchmark: keep monthly logo churn under 2%"
+  },
+  "max_monthly_gross_revenue_churn_pct": {
+    "value": 1.5,
+    "unit": "percent",
+    "description": "Churn+contraction as % of starting MRR (about 17% a year)"
+  },
+  "min_net_revenue_retention_pct": {
+    "value": 100,
+    "unit": "percent",
+    "description": "Monthly NRR below 100% means the base shrinks without new sales"
+  },
+  "max_ar60_share_pct": {
+    "value": 10,
+    "unit": "percent",
+    "description": "Share of receivables older than 60 days"
+  },
+  "max_high_risk_mrr_share_pct": {
+    "value": 15,
+    "unit": "percent",
+    "description": "Share of MRR sitting in HIGH churn-risk accounts"
+  },
+  "min_gross_margin_pct": {
+    "value": 70,
+    "unit": "percent",
+    "description": "Healthy SaaS gross margin floor"
+  },
+  "forecast_horizon": {
+    "value": 6,
+    "unit": "months"
+  }
+}

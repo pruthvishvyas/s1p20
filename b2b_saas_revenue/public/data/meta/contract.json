@@ -1,0 +1,260 @@
+{
+  "generated_at": "2026-10-18T16:23:01",
+  "pipeline_version": "2.0",
+  "project": {
+    "name": "B2B SaaS Revenue and Retention",
+    "domain": "b2b_saas_subscription",
+    "client_id": "b2b_saas_revenue",
+    "description": "Account-month subscription data: predicts churn, protects MRR, flags cash and margin leaks."
+  },
+  "terminology": {
+    "revenue": "MRR",
+    "customer": "Account",
+    "product": "Plan",
+    "transaction": "Invoice"
+  },
+  "outcomes": {
+    "understand": {
+      "kpis": "understand/kpis.json",
+      "charts": "understand/charts/",
+      "segments": "understand/segments.json",
+      "anomalies": "understand/anomalies.json"
+    },
+    "decide": {
+      "insights": "decide/insights.json",
+      "recommendations": "decide/recommendations.json",
+      "simulations": "decide/simulations/",
+      "goals": "decide/goals.json"
+    },
+    "monitor": {
+      "forecast": "monitor/forecast.json",
+      "goal_progress": "monitor/goal_progress.json",
+      "alerts": "monitor/alerts.json"
+    }
+  },
+  "model": {
+    "type": "RandomForest+calibrated",
+    "pkl_file": "models/best_classifier.pkl",
+    "feature_cols_file": "models/feature_cols.pkl",
+    "input_fields": [
+      "Tenure_Months",
+      "Seats",
+      "Discount_Pct",
+      "Net_Price_Per_Seat",
+      "Health_Score",
+      "Active_Users",
+      "Logins",
+      "Support_Tickets",
+      "Terms_Days",
+      "seat_utilization",
+      "logins_per_active_user",
+      "logins_per_seat",
+      "gross_margin_pct",
+      "contribution_margin_pct",
+      "contrib_margin_3m",
+      "cost_to_serve_ratio",
+      "support_cost_ratio",
+      "tickets_per_seat",
+      "price_realization",
+      "heavy_discount_flag",
+      "collection_rate_3m",
+      "ar_days",
+      "ar60_ratio",
+      "overdue_flag",
+      "term_months",
+      "tenure_mod_term",
+      "months_to_renewal",
+      "renewal_within_3m",
+      "is_monthly",
+      "health_change_1m",
+      "health_roll3",
+      "health_drop_flag",
+      "active_users_change_1m",
+      "logins_change_3m",
+      "tickets_roll3",
+      "mrr_growth_3m",
+      "expansion_6m",
+      "contraction_6m",
+      "is_first_year",
+      "log_mrr",
+      "log_seats",
+      "Segment_Enterprise",
+      "Segment_Mid-Market",
+      "Segment_SMB",
+      "Region_APAC",
+      "Region_EMEA",
+      "Region_LATAM",
+      "Region_North America",
+      "Industry_Education",
+      "Industry_Financial Services",
+      "Industry_Healthcare",
+      "Industry_Manufacturing",
+      "Industry_Media & Entertainment",
+      "Industry_Professional Services",
+      "Industry_Retail & E-commerce",
+      "Industry_Technology",
+      "Channel_Events",
+      "Channel_Organic",
+      "Channel_Outbound",
+      "Channel_Paid Search",
+      "Channel_Partner",
+      "Plan_Enterprise",
+      "Plan_Growth",
+      "Plan_Scale",
+      "Plan_Starter",
+      "Contract_Type_Annual",
+      "Contract_Type_Monthly"
+    ],
+    "output_label": "churn_probability_next_month",
+    "horizon": "1 month",
+    "risk_thresholds": {
+      "high": 0.0541,
+      "medium": 0.027
+    },
+    "test_metrics": {
+      "n": 2074,
+      "positives": 54,
+      "roc_auc": 0.9029,
+      "pr_auc": 0.3453,
+      "brier": 0.0206,
+      "recall_top10pct": 0.6852,
+      "lift_top10pct": 6.8651
+    }
+  },
+  "frontend": {
+    "framework": "vanilla HTML/JS",
+    "deploy_target": "cloudflare_pages"
+  },
+  "source": {
+    "type": "csv",
+    "file": "C:/Users/91635/OneDrive/VS STUDIO/regular/Portfoliio/content/s1p20/data/processed/feature_store.csv"
+  },
+  "files": [
+    {
+      "filename": "understand/kpis.json",
+      "purpose": "KPI overview cards and data health",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/charts/mrr_trend.json",
+      "purpose": "Ending MRR by month",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/charts/net_new_mrr.json",
+      "purpose": "Net new MRR by month",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/charts/logo_churn_rate.json",
+      "purpose": "Monthly logo churn %",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/charts/mrr_by_segment.json",
+      "purpose": "MRR by account segment",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/charts/churn_reason_mrr.json",
+      "purpose": "Churned MRR by reason",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "understand/charts/churn_rate_by_plan.json",
+      "purpose": "Monthly churn % by plan",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "understand/charts/mrr_by_risk_level.json",
+      "purpose": "MRR by churn risk level",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "understand/charts/top_churn_drivers.json",
+      "purpose": "Top churn drivers",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "understand/charts/ar60_share.json",
+      "purpose": "Receivables older than 60 days (% of AR)",
+      "outcome": "MONITOR"
+    },
+    {
+      "filename": "understand/charts/forecast_mrr.json",
+      "purpose": "MRR forecast (P50)",
+      "outcome": "MONITOR"
+    },
+    {
+      "filename": "understand/segments.json",
+      "purpose": "Segment Explorer",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "understand/anomalies.json",
+      "purpose": "Anomaly Explorer",
+      "outcome": "UNDERSTAND"
+    },
+    {
+      "filename": "decide/insights.json",
+      "purpose": "Insights tab",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "decide/recommendations.json",
+      "purpose": "Recommendation engine",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "decide/simulations/price_change_impact.json",
+      "purpose": "What-If Simulator lookup: price_change_impact",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "decide/simulations/retention_campaign_roi.json",
+      "purpose": "What-If Simulator lookup: retention_campaign_roi",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "decide/simulations/discount_policy_impact.json",
+      "purpose": "What-If Simulator lookup: discount_policy_impact",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "decide/goals.json",
+      "purpose": "Goal Tracker config (client sets targets)",
+      "outcome": "DECIDE"
+    },
+    {
+      "filename": "monitor/forecast.json",
+      "purpose": "Forecaster",
+      "outcome": "MONITOR"
+    },
+    {
+      "filename": "monitor/goal_progress.json",
+      "purpose": "Goal progress vs actuals",
+      "outcome": "MONITOR"
+    },
+    {
+      "filename": "monitor/alerts.json",
+      "purpose": "Alert Center",
+      "outcome": "MONITOR"
+    },
+    {
+      "filename": "meta/summary.json",
+      "purpose": "Project summary",
+      "outcome": "META"
+    },
+    {
+      "filename": "meta/terminology.json",
+      "purpose": "Client business language",
+      "outcome": "META"
+    },
+    {
+      "filename": "meta/run_log.json",
+      "purpose": "Run history for Last updated",
+      "outcome": "META"
+    }
+  ],
+  "saas_ready": true
+}

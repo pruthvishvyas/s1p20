@@ -1,0 +1,62 @@
+{
+  "assumption": "Assumption-driven what-if. Churn sensitivity is editable in CONFIG[\"SIM\"]; results are expected values for next month.",
+  "baseline_mrr": 1428934.9761,
+  "scenarios": [
+    {
+      "price_change_pct": -10.0,
+      "expected_next_month_mrr": 1288368.2269,
+      "delta_vs_baseline": -140566.7491,
+      "delta_annualised": -1686800.9895,
+      "expected_churned_logos": 4.8875
+    },
+    {
+      "price_change_pct": -5.0,
+      "expected_next_month_mrr": 1358716.2334,
+      "delta_vs_baseline": -70218.7427,
+      "delta_annualised": -842624.9119,
+      "expected_churned_logos": 5.3187
+    },
+    {
+      "price_change_pct": 0.0,
+      "expected_next_month_mrr": 1428934.9761,
+      "delta_vs_baseline": 0.0,
+      "delta_annualised": 0.0,
+      "expected_churned_logos": 5.75
+    },
+    {
+      "price_change_pct": 2.5,
+      "expected_next_month_mrr": 1463995.8735,
+      "delta_vs_baseline": 35060.8974,
+      "delta_annualised": 420730.7688,
+      "expected_churned_logos": 5.9656
+    },
+    {
+      "price_change_pct": 5.0,
+      "expected_next_month_mrr": 1499024.4549,
+      "delta_vs_baseline": 70089.4789,
+      "delta_annualised": 841073.7463,
+      "expected_churned_logos": 6.1812
+    },
+    {
+      "price_change_pct": 7.5,
+      "expected_next_month_mrr": 1534020.7204,
+      "delta_vs_baseline": 105085.7444,
+      "delta_annualised": 1261028.9323,
+      "expected_churned_logos": 6.3968
+    },
+    {
+      "price_change_pct": 10.0,
+      "expected_next_month_mrr": 1568984.67,
+      "delta_vs_baseline": 140049.6939,
+      "delta_annualised": 1680596.3269,
+      "expected_churned_logos": 6.6124
+    },
+    {
+      "price_change_pct": 15.0,
+      "expected_next_month_mrr": 1638815.6212,
+      "delta_vs_baseline": 209880.6452,
+      "delta_annualised": 2518567.7419,
+      "expected_churned_logos": 7.0437
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "churn_reason_mrr",
+  "title": "Churned MRR by reason",
+  "type": "bar",
+  "x_label": "Reason",
+  "y_label": "MRR ($)",
+  "outcome": "DECIDE",
+  "data": [
+    {
+      "label": "Poor Fit / Low Adoption",
+      "value": 79960.05
+    },
+    {
+      "label": "Price",
+      "value": 59494.4
+    },
+    {
+      "label": "Business Closed / Acquired",
+      "value": 41991.95
+    },
+    {
+      "label": "Budget Cuts",
+      "value": 20740.6
+    },
+    {
+      "label": "Competitor",
+      "value": 9886.4
+    },
+    {
+      "label": "Product / Support Issues",
+      "value": 3439.75
+    }
+  ]
+}

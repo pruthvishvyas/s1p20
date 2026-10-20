@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-09-01",
+  "goals": [
+    {
+      "goal": "mrr_target",
+      "label": "Ending MRR",
+      "actual": 1446170.15,
+      "target": null,
+      "status": "not_set"
+    },
+    {
+      "goal": "max_monthly_logo_churn_pct",
+      "label": "Monthly logo churn %",
+      "actual": 3.1153,
+      "target": 2.0,
+      "status": "breach"
+    },
+    {
+      "goal": "max_monthly_gross_revenue_churn_pct",
+      "label": "Monthly gross revenue churn %",
+      "actual": 0.5573,
+      "target": 1.5,
+      "status": "on_track"
+    },
+    {
+      "goal": "min_net_revenue_retention_pct",
+      "label": "Monthly NRR %",
+      "actual": 102.5184,
+      "target": 100,
+      "status": "on_track"
+    },
+    {
+      "goal": "max_ar60_share_pct",
+      "label": "AR 60+ share %",
+      "actual": 4.8011,
+      "target": 10,
+      "status": "on_track"
+    },
+    {
+      "goal": "max_high_risk_mrr_share_pct",
+      "label": "MRR in HIGH-risk accounts %",
+      "actual": 2.466,
+      "target": 15,
+      "status": "on_track"
+    },
+    {
+      "goal": "min_gross_margin_pct",
+      "label": "Gross margin %",
+      "actual": 78.0659,
+      "target": 70,
+      "status": "on_track"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "top_churn_drivers",
+  "title": "Top churn drivers",
+  "type": "bar",
+  "x_label": "Feature",
+  "y_label": "Importance",
+  "outcome": "DECIDE",
+  "data": [
+    {
+      "label": "tenure_mod_term",
+      "value": 0.1686
+    },
+    {
+      "label": "months_to_renewal",
+      "value": 0.1234
+    },
+    {
+      "label": "Channel_Paid Search",
+      "value": 0.0196
+    },
+    {
+      "label": "renewal_within_3m",
+      "value": 0.0132
+    },
+    {
+      "label": "Tenure_Months",
+      "value": 0.0129
+    },
+    {
+      "label": "Channel_Organic",
+      "value": 0.0123
+    },
+    {
+      "label": "Active_Users",
+      "value": 0.0086
+    },
+    {
+      "label": "contrib_margin_3m",
+      "value": 0.0084
+    },
+    {
+      "label": "Channel_Partner",
+      "value": 0.0059
+    },
+    {
+      "label": "ar_days",
+      "value": 0.0044
+    }
+  ]
+}

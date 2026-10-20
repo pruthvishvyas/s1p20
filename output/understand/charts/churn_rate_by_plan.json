@@ -1,0 +1,26 @@
+{
+  "id": "churn_rate_by_plan",
+  "title": "Monthly churn % by plan",
+  "type": "bar",
+  "x_label": "Plan",
+  "y_label": "%",
+  "outcome": "DECIDE",
+  "data": [
+    {
+      "label": "Starter",
+      "value": 4.0155
+    },
+    {
+      "label": "Growth",
+      "value": 2.733
+    },
+    {
+      "label": "Scale",
+      "value": 1.3165
+    },
+    {
+      "label": "Enterprise",
+      "value": 0.5102
+    }
+  ]
+}

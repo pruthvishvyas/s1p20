@@ -1,0 +1,6 @@
+name = "b2b_saas_revenue"
+main = "worker/index.js"
+compatibility_date = "2026-10-18"
+
+[site]
+bucket = "./dist"

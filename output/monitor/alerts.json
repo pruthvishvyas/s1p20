@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-09-01",
+  "alerts": [
+    {
+      "severity": "HIGH",
+      "goal": "max_monthly_logo_churn_pct",
+      "message": "Monthly logo churn % is 3.12 against a goal of 2.00",
+      "outcome": "MONITOR"
+    },
+    {
+      "severity": "HIGH",
+      "goal": "p1_accounts",
+      "message": "11 accounts need urgent action this week",
+      "outcome": "MONITOR"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source_file": "C:/Users/91635/OneDrive/VS STUDIO/regular/Portfoliio/content/s1p20/raw\\s1p20.csv",
+  "rows": 6972,
+  "cols": 45,
+  "accounts": 497,
+  "months": 36,
+  "first_month": "2023-10-01",
+  "last_month": "2026-09-01",
+  "null_counts": {
+    "Churn_Reason": 6795
+  },
+  "null_month_rows": 0,
+  "duplicate_account_months": 0,
+  "account_month_gaps": 0,
+  "mrr_identity_mismatch_rows": 0,
+  "negative_value_rows": 0,
+  "churn_events": 177,
+  "churn_rate_account_month": 0.0254,
+  "churn_rows_with_positive_ending_mrr": 0,
+  "churn_rows_missing_reason": 0,
+  "target_balance": {
+    "0": 6795,
+    "1": 177
+  },
+  "categorical_levels": {
+    "segment": [
+      "Enterprise",
+      "Mid-Market",
+      "SMB"
+    ],
+    "region": [
+      "APAC",
+      "EMEA",
+      "LATAM",
+      "North America"
+    ],
+    "industry": [
+      "Education",
+      "Financial Services",
+      "Healthcare",
+      "Manufacturing",
+      "Media & Entertainment",
+      "Professional Services",
+      "Retail & E-commerce",
+      "Technology"
+    ],
+    "channel": [
+      "Events",
+      "Organic",
+      "Outbound",
+      "Paid Search",
+      "Partner"
+    ],
+    "plan": [
+      "Enterprise",
+      "Growth",
+      "Scale",
+      "Starter"
+    ],
+    "contract": [
+      "Annual",
+      "Monthly"
+    ]
+  },
+  "schema_ok": true,
+  "quality_gates": {
+    "min_rows_ok": true,
+    "min_accounts_ok": true,
+    "min_months_ok": true,
+    "churn_model_ready": true,
+    "forecast_ready": true
+  }
+}

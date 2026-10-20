@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn>=1.3
+matplotlib
+seaborn
+plotly
+openpyxl
+joblib
+notebook
+ipykernel
+# optional BigQuery source: google-cloud-bigquery db-dtypes

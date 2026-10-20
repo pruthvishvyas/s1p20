@@ -1,0 +1,142 @@
+{
+  "assumption": "Save rate = share of expected churn prevented by the campaign.",
+  "cost_per_account": 878.9907,
+  "gross_margin_used": 0.7471,
+  "scenarios": [
+    {
+      "target_top_pct": 5.0,
+      "accounts_targeted": 16,
+      "save_rate": 10.0,
+      "campaign_cost": 14063.8515,
+      "protected_gross_profit": 6686.4935,
+      "net_benefit": -7377.358,
+      "roi": -0.5246
+    },
+    {
+      "target_top_pct": 5.0,
+      "accounts_targeted": 16,
+      "save_rate": 20.0,
+      "campaign_cost": 14063.8515,
+      "protected_gross_profit": 13372.9869,
+      "net_benefit": -690.8646,
+      "roi": -0.0491
+    },
+    {
+      "target_top_pct": 5.0,
+      "accounts_targeted": 16,
+      "save_rate": 30.0,
+      "campaign_cost": 14063.8515,
+      "protected_gross_profit": 20059.4804,
+      "net_benefit": 5995.6289,
+      "roi": 0.4263
+    },
+    {
+      "target_top_pct": 10.0,
+      "accounts_targeted": 32,
+      "save_rate": 10.0,
+      "campaign_cost": 28127.703,
+      "protected_gross_profit": 6873.3901,
+      "net_benefit": -21254.3129,
+      "roi": -0.7556
+    },
+    {
+      "target_top_pct": 10.0,
+      "accounts_targeted": 32,
+      "save_rate": 20.0,
+      "campaign_cost": 28127.703,
+      "protected_gross_profit": 13746.7801,
+      "net_benefit": -14380.9229,
+      "roi": -0.5113
+    },
+    {
+      "target_top_pct": 10.0,
+      "accounts_targeted": 32,
+      "save_rate": 30.0,
+      "campaign_cost": 28127.703,
+      "protected_gross_profit": 20620.1702,
+      "net_benefit": -7507.5328,
+      "roi": -0.2669
+    },
+    {
+      "target_top_pct": 15.0,
+      "accounts_targeted": 48,
+      "save_rate": 10.0,
+      "campaign_cost": 42191.5545,
+      "protected_gross_profit": 7051.8879,
+      "net_benefit": -35139.6666,
+      "roi": -0.8329
+    },
+    {
+      "target_top_pct": 15.0,
+      "accounts_targeted": 48,
+      "save_rate": 20.0,
+      "campaign_cost": 42191.5545,
+      "protected_gross_profit": 14103.7758,
+      "net_benefit": -28087.7787,
+      "roi": -0.6657
+    },
+    {
+      "target_top_pct": 15.0,
+      "accounts_targeted": 48,
+      "save_rate": 30.0,
+      "campaign_cost": 42191.5545,
+      "protected_gross_profit": 21155.6637,
+      "net_benefit": -21035.8908,
+      "roi": -0.4986
+    },
+    {
+      "target_top_pct": 20.0,
+      "accounts_targeted": 64,
+      "save_rate": 10.0,
+      "campaign_cost": 56255.406,
+      "protected_gross_profit": 7205.657,
+      "net_benefit": -49049.749,
+      "roi": -0.8719
+    },
+    {
+      "target_top_pct": 20.0,
+      "accounts_targeted": 64,
+      "save_rate": 20.0,
+      "campaign_cost": 56255.406,
+      "protected_gross_profit": 14411.314,
+      "net_benefit": -41844.092,
+      "roi": -0.7438
+    },
+    {
+      "target_top_pct": 20.0,
+      "accounts_targeted": 64,
+      "save_rate": 30.0,
+      "campaign_cost": 56255.406,
+      "protected_gross_profit": 21616.9711,
+      "net_benefit": -34638.4349,
+      "roi": -0.6157
+    },
+    {
+      "target_top_pct": 30.0,
+      "accounts_targeted": 96,
+      "save_rate": 10.0,
+      "campaign_cost": 84383.109,
+      "protected_gross_profit": 7722.2731,
+      "net_benefit": -76660.8359,
+      "roi": -0.9085
+    },
+    {
+      "target_top_pct": 30.0,
+      "accounts_targeted": 96,
+      "save_rate": 20.0,
+      "campaign_cost": 84383.109,
+      "protected_gross_profit": 15444.5462,
+      "net_benefit": -68938.5628,
+      "roi": -0.817
+    },
+    {
+      "target_top_pct": 30.0,
+      "accounts_targeted": 96,
+      "save_rate": 30.0,
+      "campaign_cost": 84383.109,
+      "protected_gross_profit": 23166.8193,
+      "net_benefit": -61216.2897,
+      "roi": -0.7255
+    }
+  ]
+}

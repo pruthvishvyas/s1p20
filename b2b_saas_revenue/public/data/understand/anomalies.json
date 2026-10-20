@@ -1,0 +1,1093 @@
+{
+  "total_flagged": 136,
+  "items": [
+    {
+      "Account_ID": "ACC-1227",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.7034,
+      "anomaly_driver": "cost_to_serve_ratio (z=19.7)",
+      "Ending_MRR": 36.0,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.7026,
+      "anomaly_driver": "tickets_roll3 (z=23.9)",
+      "Ending_MRR": 58949.8,
+      "Health_Score": 85
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6886,
+      "anomaly_driver": "tickets_roll3 (z=26.0)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 98
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6864,
+      "anomaly_driver": "tickets_roll3 (z=26.0)",
+      "Ending_MRR": 78581.3,
+      "Health_Score": 87
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6833,
+      "anomaly_driver": "tickets_roll3 (z=22.6)",
+      "Ending_MRR": 75397.6,
+      "Health_Score": 92
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6795,
+      "anomaly_driver": "tickets_roll3 (z=24.6)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-07-01",
+      "anomaly_score": 0.6731,
+      "anomaly_driver": "tickets_roll3 (z=26.0)",
+      "Ending_MRR": 78581.3,
+      "Health_Score": 75
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6698,
+      "anomaly_driver": "tickets_roll3 (z=22.6)",
+      "Ending_MRR": 90316.75,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6656,
+      "anomaly_driver": "tickets_roll3 (z=21.2)",
+      "Ending_MRR": 75397.6,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1227",
+      "Month": "2026-02-01",
+      "anomaly_score": 0.6599,
+      "anomaly_driver": "cost_to_serve_ratio (z=19.7)",
+      "Ending_MRR": 36.0,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1333",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.649,
+      "anomaly_driver": "logins_change_3m (z=10.4)",
+      "Ending_MRR": 15758.4,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.6468,
+      "anomaly_driver": "tickets_roll3 (z=25.3)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 98
+    },
+    {
+      "Account_ID": "ACC-1265",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6456,
+      "anomaly_driver": "tickets_roll3 (z=25.0)",
+      "Ending_MRR": 37201.1,
+      "Health_Score": 37
+    },
+    {
+      "Account_ID": "ACC-1107",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6446,
+      "anomaly_driver": "logins_change_3m (z=11.2)",
+      "Ending_MRR": 1629.25,
+      "Health_Score": 86
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6438,
+      "anomaly_driver": "tickets_roll3 (z=18.9)",
+      "Ending_MRR": 44682.4,
+      "Health_Score": 86
+    },
+    {
+      "Account_ID": "ACC-1260",
+      "Month": "2026-07-01",
+      "anomaly_score": 0.6384,
+      "anomaly_driver": "tickets_roll3 (z=18.9)",
+      "Ending_MRR": 28145.6,
+      "Health_Score": 69
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-01-01",
+      "anomaly_score": 0.6377,
+      "anomaly_driver": "tickets_roll3 (z=25.3)",
+      "Ending_MRR": 58949.8,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1168",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6369,
+      "anomaly_driver": "logins_change_3m (z=14.8)",
+      "Ending_MRR": 7247.1,
+      "Health_Score": 81
+    },
+    {
+      "Account_ID": "ACC-1354",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6368,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 17199.0,
+      "Health_Score": 98
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6347,
+      "anomaly_driver": "tickets_roll3 (z=20.6)",
+      "Ending_MRR": 31521.0,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-10-01",
+      "anomaly_score": 0.6338,
+      "anomaly_driver": "tickets_roll3 (z=26.3)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1350",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6329,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 16566.3,
+      "Health_Score": 60
+    },
+    {
+      "Account_ID": "ACC-1316",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6314,
+      "anomaly_driver": "cost_to_serve_ratio (z=10.7)",
+      "Ending_MRR": 128.25,
+      "Health_Score": 83
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-11-01",
+      "anomaly_score": 0.6311,
+      "anomaly_driver": "tickets_roll3 (z=26.3)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 73
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6306,
+      "anomaly_driver": "tickets_roll3 (z=18.2)",
+      "Ending_MRR": 31521.0,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2025-01-01",
+      "anomaly_score": 0.6301,
+      "anomaly_driver": "tickets_roll3 (z=14.8)",
+      "Ending_MRR": 44682.4,
+      "Health_Score": 71
+    },
+    {
+      "Account_ID": "ACC-1147",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6281,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 26425.5,
+      "Health_Score": 62
+    },
+    {
+      "Account_ID": "ACC-1329",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.628,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 26212.2,
+      "Health_Score": 83
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2026-07-01",
+      "anomaly_score": 0.6247,
+      "anomaly_driver": "tickets_roll3 (z=23.9)",
+      "Ending_MRR": 75397.6,
+      "Health_Score": 89
+    },
+    {
+      "Account_ID": "ACC-1260",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6236,
+      "anomaly_driver": "tickets_roll3 (z=14.2)",
+      "Ending_MRR": 21560.0,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-07-01",
+      "anomaly_score": 0.6235,
+      "anomaly_driver": "tickets_roll3 (z=19.9)",
+      "Ending_MRR": 54324.35,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1079",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6218,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 4655.0,
+      "Health_Score": 50
+    },
+    {
+      "Account_ID": "ACC-1198",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6218,
+      "anomaly_driver": "tickets_roll3 (z=18.5)",
+      "Ending_MRR": 24108.0,
+      "Health_Score": 63
+    },
+    {
+      "Account_ID": "ACC-1107",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6194,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 1629.25,
+      "Health_Score": 72
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-12-01",
+      "anomaly_score": 0.6183,
+      "anomaly_driver": "tickets_roll3 (z=26.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 72
+    },
+    {
+      "Account_ID": "ACC-1246",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6179,
+      "anomaly_driver": "cost_to_serve_ratio (z=13.4)",
+      "Ending_MRR": 927.0,
+      "Health_Score": 88
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2025-03-01",
+      "anomaly_score": 0.6176,
+      "anomaly_driver": "tickets_roll3 (z=19.2)",
+      "Ending_MRR": 44682.4,
+      "Health_Score": 84
+    },
+    {
+      "Account_ID": "ACC-1260",
+      "Month": "2026-08-01",
+      "anomaly_score": 0.6175,
+      "anomaly_driver": "tickets_roll3 (z=23.3)",
+      "Ending_MRR": 28145.6,
+      "Health_Score": 72
+    },
+    {
+      "Account_ID": "ACC-1061",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6172,
+      "anomaly_driver": "tickets_roll3 (z=14.8)",
+      "Ending_MRR": 27077.25,
+      "Health_Score": 97
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-08-01",
+      "anomaly_score": 0.6166,
+      "anomaly_driver": "tickets_roll3 (z=22.3)",
+      "Ending_MRR": 54324.35,
+      "Health_Score": 61
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2024-12-01",
+      "anomaly_score": 0.6162,
+      "anomaly_driver": "tickets_roll3 (z=14.5)",
+      "Ending_MRR": 21744.75,
+      "Health_Score": 42
+    },
+    {
+      "Account_ID": "ACC-1146",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6145,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 4282.6,
+      "Health_Score": 78
+    },
+    {
+      "Account_ID": "ACC-1298",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6127,
+      "anomaly_driver": "logins_change_3m (z=15.9)",
+      "Ending_MRR": 2839.55,
+      "Health_Score": 82
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2025-02-01",
+      "anomaly_score": 0.6126,
+      "anomaly_driver": "tickets_roll3 (z=14.2)",
+      "Ending_MRR": 21744.75,
+      "Health_Score": 55
+    },
+    {
+      "Account_ID": "ACC-1394",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6112,
+      "anomaly_driver": "tickets_roll3 (z=17.5)",
+      "Ending_MRR": 23763.2,
+      "Health_Score": 40
+    },
+    {
+      "Account_ID": "ACC-1323",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.611,
+      "anomaly_driver": "logins_change_3m (z=10.5)",
+      "Ending_MRR": 10878.0,
+      "Health_Score": 87
+    },
+    {
+      "Account_ID": "ACC-1077",
+      "Month": "2025-03-01",
+      "anomaly_score": 0.6107,
+      "anomaly_driver": "cost_to_serve_ratio (z=10.7)",
+      "Ending_MRR": 60.0,
+      "Health_Score": 73
+    },
+    {
+      "Account_ID": "ACC-1061",
+      "Month": "2026-09-01",
+      "anomaly_score": 0.6107,
+      "anomaly_driver": "tickets_roll3 (z=18.5)",
+      "Ending_MRR": 47577.75,
+      "Health_Score": 78
+    },
+    {
+      "Account_ID": "ACC-1146",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6106,
+      "anomaly_driver": "logins_change_3m (z=11.7)",
+      "Ending_MRR": 5260.15,
+      "Health_Score": 70
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2024-09-01",
+      "anomaly_score": 0.6098,
+      "anomaly_driver": "tickets_roll3 (z=24.6)",
+      "Ending_MRR": 54324.35,
+      "Health_Score": 60
+    },
+    {
+      "Account_ID": "ACC-1332",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6093,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 1176.0,
+      "Health_Score": 79
+    },
+    {
+      "Account_ID": "ACC-1284",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6084,
+      "anomaly_driver": "logins_change_3m (z=11.9)",
+      "Ending_MRR": 165.0,
+      "Health_Score": 88
+    },
+    {
+      "Account_ID": "ACC-1356",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6072,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 45.0,
+      "Health_Score": 87
+    },
+    {
+      "Account_ID": "ACC-1331",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6068,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 1355.75,
+      "Health_Score": 58
+    },
+    {
+      "Account_ID": "ACC-1198",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.6065,
+      "anomaly_driver": "tickets_roll3 (z=20.6)",
+      "Ending_MRR": 24108.0,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1168",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6049,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 5456.15,
+      "Health_Score": 83
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6048,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 25833.0,
+      "Health_Score": 64
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2025-05-01",
+      "anomaly_score": 0.6047,
+      "anomaly_driver": "tickets_roll3 (z=25.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 95
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2024-12-01",
+      "anomaly_score": 0.6044,
+      "anomaly_driver": "tickets_roll3 (z=13.5)",
+      "Ending_MRR": 34949.6,
+      "Health_Score": 81
+    },
+    {
+      "Account_ID": "ACC-1241",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6042,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 72.0,
+      "Health_Score": 75
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.6038,
+      "anomaly_driver": "tickets_roll3 (z=19.9)",
+      "Ending_MRR": 56564.0,
+      "Health_Score": 95
+    },
+    {
+      "Account_ID": "ACC-1287",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.6035,
+      "anomaly_driver": "logins_change_3m (z=14.8)",
+      "Ending_MRR": 2114.1,
+      "Health_Score": 94
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2024-02-01",
+      "anomaly_score": 0.6032,
+      "anomaly_driver": "tickets_roll3 (z=10.1)",
+      "Ending_MRR": 29072.0,
+      "Health_Score": 75
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-08-01",
+      "anomaly_score": 0.6017,
+      "anomaly_driver": "tickets_roll3 (z=26.6)",
+      "Ending_MRR": 78581.3,
+      "Health_Score": 68
+    },
+    {
+      "Account_ID": "ACC-1196",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.6016,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 356.25,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1032",
+      "Month": "2025-02-01",
+      "anomaly_score": 0.6007,
+      "anomaly_driver": "tickets_roll3 (z=18.5)",
+      "Ending_MRR": 44682.4,
+      "Health_Score": 70
+    },
+    {
+      "Account_ID": "ACC-1244",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5994,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 279.0,
+      "Health_Score": 42
+    },
+    {
+      "Account_ID": "ACC-1245",
+      "Month": "2026-08-01",
+      "anomaly_score": 0.5994,
+      "anomaly_driver": "tickets_roll3 (z=18.9)",
+      "Ending_MRR": 29680.3,
+      "Health_Score": 43
+    },
+    {
+      "Account_ID": "ACC-1245",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5988,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 23233.9,
+      "Health_Score": 44
+    },
+    {
+      "Account_ID": "ACC-1258",
+      "Month": "2025-10-01",
+      "anomaly_score": 0.5985,
+      "anomaly_driver": "mrr_growth_3m (z=6.9)",
+      "Ending_MRR": 3572.8,
+      "Health_Score": 69
+    },
+    {
+      "Account_ID": "ACC-1045",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5976,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 27871.2,
+      "Health_Score": 63
+    },
+    {
+      "Account_ID": "ACC-1035",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5976,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 121.5,
+      "Health_Score": 49
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-02-01",
+      "anomaly_score": 0.5972,
+      "anomaly_driver": "tickets_roll3 (z=22.3)",
+      "Ending_MRR": 90316.75,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1276",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5961,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 991.8,
+      "Health_Score": 79
+    },
+    {
+      "Account_ID": "ACC-1217",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5958,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 22428.1,
+      "Health_Score": 53
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2024-02-01",
+      "anomaly_score": 0.5952,
+      "anomaly_driver": "tickets_roll3 (z=14.2)",
+      "Ending_MRR": 32903.5,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1394",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5951,
+      "anomaly_driver": "tickets_roll3 (z=14.2)",
+      "Ending_MRR": 23763.2,
+      "Health_Score": 44
+    },
+    {
+      "Account_ID": "ACC-1342",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5938,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 4498.2,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1333",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5934,
+      "anomaly_driver": "logins_change_3m (z=10.0)",
+      "Ending_MRR": 12073.6,
+      "Health_Score": 93
+    },
+    {
+      "Account_ID": "ACC-1325",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5929,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 121.5,
+      "Health_Score": 61
+    },
+    {
+      "Account_ID": "ACC-1198",
+      "Month": "2025-05-01",
+      "anomaly_score": 0.5927,
+      "anomaly_driver": "tickets_roll3 (z=23.3)",
+      "Ending_MRR": 26420.8,
+      "Health_Score": 75
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2025-05-01",
+      "anomaly_score": 0.5925,
+      "anomaly_driver": "tickets_roll3 (z=22.3)",
+      "Ending_MRR": 43797.6,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1234",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5922,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 792.0,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2025-06-01",
+      "anomaly_score": 0.5918,
+      "anomaly_driver": "tickets_roll3 (z=25.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 88
+    },
+    {
+      "Account_ID": "ACC-1193",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5913,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 1438.4,
+      "Health_Score": 64
+    },
+    {
+      "Account_ID": "ACC-1002",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5905,
+      "anomaly_driver": "tickets_roll3 (z=19.2)",
+      "Ending_MRR": 36656.0,
+      "Health_Score": 78
+    },
+    {
+      "Account_ID": "ACC-1081",
+      "Month": "2025-03-01",
+      "anomaly_score": 0.5902,
+      "anomaly_driver": "active_users_change_1m (z=10.1)",
+      "Ending_MRR": 18130.5,
+      "Health_Score": 55
+    },
+    {
+      "Account_ID": "ACC-1146",
+      "Month": "2025-02-01",
+      "anomaly_score": 0.5901,
+      "anomaly_driver": "mrr_growth_3m (z=4.5)",
+      "Ending_MRR": 2839.55,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1202",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5895,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 2528.8,
+      "Health_Score": 96
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-07-01",
+      "anomaly_score": 0.5893,
+      "anomaly_driver": "tickets_roll3 (z=26.0)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 94
+    },
+    {
+      "Account_ID": "ACC-1333",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5884,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 9800.0,
+      "Health_Score": 99
+    },
+    {
+      "Account_ID": "ACC-1059",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.588,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 26591.4,
+      "Health_Score": 88
+    },
+    {
+      "Account_ID": "ACC-1237",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.5877,
+      "anomaly_driver": "tickets_roll3 (z=10.5)",
+      "Ending_MRR": 22692.75,
+      "Health_Score": 60
+    },
+    {
+      "Account_ID": "ACC-1344",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5876,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 7754.25,
+      "Health_Score": 68
+    },
+    {
+      "Account_ID": "ACC-1244",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5874,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 279.0,
+      "Health_Score": 39
+    },
+    {
+      "Account_ID": "ACC-1147",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5864,
+      "anomaly_driver": "logins_change_3m (z=17.1)",
+      "Ending_MRR": 26425.5,
+      "Health_Score": 68
+    },
+    {
+      "Account_ID": "ACC-1338",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5859,
+      "anomaly_driver": "tickets_roll3 (z=15.2)",
+      "Ending_MRR": 21614.4,
+      "Health_Score": 35
+    },
+    {
+      "Account_ID": "ACC-1342",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5843,
+      "anomaly_driver": "logins_change_3m (z=11.7)",
+      "Ending_MRR": 4498.2,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1218",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5835,
+      "anomaly_driver": "logins_change_3m (z=6.5)",
+      "Ending_MRR": 3131.1,
+      "Health_Score": 58
+    },
+    {
+      "Account_ID": "ACC-1060",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5835,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 570.0,
+      "Health_Score": 74
+    },
+    {
+      "Account_ID": "ACC-1208",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5835,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 9669.6,
+      "Health_Score": 81
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-08-01",
+      "anomaly_score": 0.5833,
+      "anomaly_driver": "tickets_roll3 (z=26.6)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 92
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2025-08-01",
+      "anomaly_score": 0.5825,
+      "anomaly_driver": "tickets_roll3 (z=25.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 80
+    },
+    {
+      "Account_ID": "ACC-1323",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5824,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 10878.0,
+      "Health_Score": 73
+    },
+    {
+      "Account_ID": "ACC-1302",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5821,
+      "anomaly_driver": "logins_change_3m (z=15.2)",
+      "Ending_MRR": 2157.6,
+      "Health_Score": 51
+    },
+    {
+      "Account_ID": "ACC-1217",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.582,
+      "anomaly_driver": "tickets_roll3 (z=12.5)",
+      "Ending_MRR": 22428.1,
+      "Health_Score": 51
+    },
+    {
+      "Account_ID": "ACC-1122",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5815,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 3025.75,
+      "Health_Score": 82
+    },
+    {
+      "Account_ID": "ACC-1350",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5815,
+      "anomaly_driver": "logins_change_3m (z=12.7)",
+      "Ending_MRR": 16566.3,
+      "Health_Score": 68
+    },
+    {
+      "Account_ID": "ACC-1328",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5809,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 203.0,
+      "Health_Score": 64
+    },
+    {
+      "Account_ID": "ACC-1234",
+      "Month": "2025-08-01",
+      "anomaly_score": 0.5806,
+      "anomaly_driver": "mrr_growth_3m (z=6.0)",
+      "Ending_MRR": 792.0,
+      "Health_Score": 57
+    },
+    {
+      "Account_ID": "ACC-1066",
+      "Month": "2025-01-01",
+      "anomaly_score": 0.5805,
+      "anomaly_driver": "tickets_roll3 (z=14.2)",
+      "Ending_MRR": 21744.75,
+      "Health_Score": 40
+    },
+    {
+      "Account_ID": "ACC-1265",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.5796,
+      "anomaly_driver": "tickets_roll3 (z=24.6)",
+      "Ending_MRR": 37201.1,
+      "Health_Score": 38
+    },
+    {
+      "Account_ID": "ACC-1204",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5795,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 120.0,
+      "Health_Score": 85
+    },
+    {
+      "Account_ID": "ACC-1382",
+      "Month": "2026-05-01",
+      "anomaly_score": 0.5788,
+      "anomaly_driver": "logins_change_3m (z=14.4)",
+      "Ending_MRR": 2332.4,
+      "Health_Score": 98
+    },
+    {
+      "Account_ID": "ACC-1147",
+      "Month": "2026-08-01",
+      "anomaly_score": 0.5786,
+      "anomaly_driver": "tickets_roll3 (z=17.2)",
+      "Ending_MRR": 30513.75,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1040",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5783,
+      "anomaly_driver": "logins_change_3m (z=8.0)",
+      "Ending_MRR": 19189.1,
+      "Health_Score": 54
+    },
+    {
+      "Account_ID": "ACC-1265",
+      "Month": "2025-11-01",
+      "anomaly_score": 0.5773,
+      "anomaly_driver": "tickets_roll3 (z=21.9)",
+      "Ending_MRR": 37201.1,
+      "Health_Score": 38
+    },
+    {
+      "Account_ID": "ACC-1150",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5773,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 104.4,
+      "Health_Score": 78
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2026-09-01",
+      "anomaly_score": 0.577,
+      "anomaly_driver": "tickets_roll3 (z=26.6)",
+      "Ending_MRR": 106902.8,
+      "Health_Score": 95
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2025-01-01",
+      "anomaly_score": 0.5765,
+      "anomaly_driver": "tickets_roll3 (z=26.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 79
+    },
+    {
+      "Account_ID": "ACC-1353",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5761,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 13707.75,
+      "Health_Score": 75
+    },
+    {
+      "Account_ID": "ACC-1041",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5759,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 15168.0,
+      "Health_Score": 63
+    },
+    {
+      "Account_ID": "ACC-1260",
+      "Month": "2026-09-01",
+      "anomaly_score": 0.5757,
+      "anomaly_driver": "tickets_roll3 (z=24.3)",
+      "Ending_MRR": 28145.6,
+      "Health_Score": 68
+    },
+    {
+      "Account_ID": "ACC-1061",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5756,
+      "anomaly_driver": "tickets_roll3 (z=17.2)",
+      "Ending_MRR": 27077.25,
+      "Health_Score": 76
+    },
+    {
+      "Account_ID": "ACC-1327",
+      "Month": "2026-09-01",
+      "anomaly_score": 0.5753,
+      "anomaly_driver": "tickets_roll3 (z=15.5)",
+      "Ending_MRR": 34001.6,
+      "Health_Score": 61
+    },
+    {
+      "Account_ID": "ACC-1052",
+      "Month": "2026-07-01",
+      "anomaly_score": 0.5737,
+      "anomaly_driver": "mrr_growth_3m (z=6.9)",
+      "Ending_MRR": 8026.2,
+      "Health_Score": 91
+    },
+    {
+      "Account_ID": "ACC-1287",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5734,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 1566.0,
+      "Health_Score": 77
+    },
+    {
+      "Account_ID": "ACC-1020",
+      "Month": "2025-03-01",
+      "anomaly_score": 0.5732,
+      "anomaly_driver": "tickets_roll3 (z=25.6)",
+      "Ending_MRR": 71917.65,
+      "Health_Score": 90
+    },
+    {
+      "Account_ID": "ACC-1168",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.5727,
+      "anomaly_driver": "mrr_growth_3m (z=7.4)",
+      "Ending_MRR": 7247.1,
+      "Health_Score": 80
+    },
+    {
+      "Account_ID": "ACC-1152",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5724,
+      "anomaly_driver": "logins_change_3m (z=13.0)",
+      "Ending_MRR": 1058.4,
+      "Health_Score": 77
+    },
+    {
+      "Account_ID": "ACC-1072",
+      "Month": "2026-04-01",
+      "anomaly_score": 0.5723,
+      "anomaly_driver": "tickets_roll3 (z=23.9)",
+      "Ending_MRR": 58949.8,
+      "Health_Score": 85
+    },
+    {
+      "Account_ID": "ACC-1245",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5721,
+      "anomaly_driver": "tickets_roll3 (z=18.9)",
+      "Ending_MRR": 23233.9,
+      "Health_Score": 35
+    },
+    {
+      "Account_ID": "ACC-1329",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5719,
+      "anomaly_driver": "logins_change_3m (z=16.5)",
+      "Ending_MRR": 26212.2,
+      "Health_Score": 84
+    },
+    {
+      "Account_ID": "ACC-1077",
+      "Month": "2024-09-01",
+      "anomaly_score": 0.5715,
+      "anomaly_driver": "cost_to_serve_ratio (z=13.9)",
+      "Ending_MRR": 45.0,
+      "Health_Score": 66
+    },
+    {
+      "Account_ID": "ACC-1279",
+      "Month": "2026-03-01",
+      "anomaly_score": 0.5715,
+      "anomaly_driver": "active_users_change_1m (z=16.0)",
+      "Ending_MRR": 165.0,
+      "Health_Score": 88
+    },
+    {
+      "Account_ID": "ACC-1120",
+      "Month": "2026-06-01",
+      "anomaly_score": 0.5714,
+      "anomaly_driver": "logins_change_3m (z=7.8)",
+      "Ending_MRR": 199.5,
+      "Health_Score": 77
+    }
+  ]
+}

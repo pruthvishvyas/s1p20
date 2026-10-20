@@ -1,0 +1,34 @@
+{
+  "id": "forecast_mrr",
+  "title": "MRR forecast (P50)",
+  "type": "line",
+  "x_label": "Month",
+  "y_label": "MRR ($)",
+  "outcome": "MONITOR",
+  "data": [
+    {
+      "label": "2026-10",
+      "value": 1484614.775
+    },
+    {
+      "label": "2026-11",
+      "value": 1523059.4
+    },
+    {
+      "label": "2026-12",
+      "value": 1561504.025
+    },
+    {
+      "label": "2027-01",
+      "value": 1599948.65
+    },
+    {
+      "label": "2027-02",
+      "value": 1638393.275
+    },
+    {
+      "label": "2027-03",
+      "value": 1676837.9
+    }
+  ]
+}
